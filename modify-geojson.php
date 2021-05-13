@@ -9,22 +9,9 @@
 <body>
 
 <?php
-// $link = mysqli_connect("localhost", "root", "root", "cantons_lat_long");
 
-// if (!$link) {
-//     echo "Error: Unable to connect to MySQL." . PHP_EOL;
-//     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-//     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
-//     exit;
-// }
-
-// {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.069228409253472,46.804646392890156]},"properties":{"nom":"Martinique","code":"972","bureau":"","dept":"","canton":""}},
-
-// $f = file('departements-centre-metro_cea-trom.json');
 $f = file('cantons_2015-2021-centres-metro-trom-lng-lat.json');
-// $f = file_get_contents('cantons_2015-2021-centres-metro-trom-lng-lat.json');
-// if(!function_exists('json_decode')) die('Your host does not support json');
-// $feed = json_decode($f, true);
+
 echo '<pre>';
 
 
